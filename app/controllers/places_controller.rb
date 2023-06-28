@@ -1,6 +1,6 @@
 class PlacesController < ApplicationController
 
-    def index
+    def index # Return HTML
         render "pages/places/index"
     end
 
